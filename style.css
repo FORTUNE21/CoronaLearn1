@@ -1,0 +1,150 @@
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: blue;
+    font-weight:bold;
+}
+
+
+
+.login-text{
+    margin-top: 12rem;
+    margin-bottom:1rem;
+    font-weight: 600;
+}
+.hello-text{
+    font-weight:600;
+    margin-bottom:4rem;
+}
+.form-group{
+    width:100%;
+    margin:10px ;
+    
+}
+
+.btnLogin{
+    border-bottom-right-radius: 10px;
+}
+.text-center{
+    
+}
+.btn{
+    border-radius:20px;
+    float:justify;
+    width:40%;
+   
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+    margin: 10px;
+ }
+
+.container{
+    background-color:#ffffff;
+    background-position:center;
+    background-size: cover;
+    padding:0px 60px 0px 60px;
+    border-radius: 10px;
+    margin:80px ;
+    width:150%;
+    border:5px solid;
+ 
+}
+.form-group{
+    width:100%;
+}
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
