@@ -1,11 +1,26 @@
-
 body{
     font-family: 'Varela Round', sans-serif;
     background-color: blue;
     font-weight:bold;   
 }
 
-@media screen and (min-width: 500px) and (min-width:900px){}
+@media screen and (device-aspect-ratio:16/9)
+{
+    body,container{
+        width:100%;
+
+    }
+}
+@media print{
+    body{ 
+    width:100%;
+    }
+}
+@media all and(max-width:699px) and(min-device-width:520px),(min-width:1151px){
+    body{
+        background:purple;
+    }
+}
 
 input[type=mail ]{
     width:100%;
@@ -48,8 +63,6 @@ input[type=email]:focus{
    
 }
 
-
-
     .container{
         background-color:#ffffff;
         background-position:center;
@@ -63,6 +76,104 @@ input[type=email]:focus{
         
      
     }
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
      
