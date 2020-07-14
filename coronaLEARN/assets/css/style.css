@@ -1,14 +1,12 @@
 body{
     font-family: 'Varela Round', sans-serif;
-    background-color: blue;
-    font-weight:bold;   
+    background-color: blue;   
 }
 
 @media screen and (device-aspect-ratio:16/9)
 {
     body,container{
-        width:100%;
-
+        color:blue;
     }
 }
 @media print{
@@ -16,10 +14,12 @@ body{
     width:100%;
     }
 }
-@media all and(max-width:699px) and(min-device-width:520px),(min-width:1151px){
-    body{
-        background:purple;
-    }
+@media screen and(max-width:520px){
+    container{font-size:30px;
+        width:400px;
+        padding-left: 50px;
+    padding-right: 50px;
+ }
 }
 
 input[type=mail ]{
@@ -49,11 +49,9 @@ input[type=email]:focus{
 
 }
 
+.welcome{ font-size: 30px;
+    text-align: center;
 
-.login-text{
-    margin-top: 20rem;
-    margin-bottom:1rem;
-    font-weight: 600;
 }
 
 .btn{
@@ -67,18 +65,91 @@ input[type=email]:focus{
         background-color:#ffffff;
         background-position:center;
         background-size: cover;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top:20px;
+        margin-bottom: 15px;
         border-radius: 10px;
-        max-width:70%;
+        max-width:500px;
         
      
     }
 
 
      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
